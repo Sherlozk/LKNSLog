@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16D7D3771D3512CF00789DC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D7D3761D3512CF00789DC7 /* main.m */; };
+		16D7D37A1D3512CF00789DC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D7D3791D3512CF00789DC7 /* AppDelegate.m */; };
+		16D7D37D1D3512CF00789DC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D7D37C1D3512CF00789DC7 /* ViewController.m */; };
+		16D7D3801D3512CF00789DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D7D37E1D3512CF00789DC7 /* Main.storyboard */; };
+		16D7D3821D3512CF00789DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D7D3811D3512CF00789DC7 /* Assets.xcassets */; };
+		16D7D3851D3512CF00789DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D7D3831D3512CF00789DC7 /* LaunchScreen.storyboard */; };
+		16D7D3901D3512D000789DC7 /* LKNSLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D7D38F1D3512D000789DC7 /* LKNSLogTests.m */; };
+		16D7D39B1D3512D000789DC7 /* LKNSLogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D7D39A1D3512D000789DC7 /* LKNSLogUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16D7D38C1D3512D000789DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D7D36A1D3512CF00789DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D7D3711D3512CF00789DC7;
+			remoteInfo = LKNSLog;
+		};
+		16D7D3971D3512D000789DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D7D36A1D3512CF00789DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D7D3711D3512CF00789DC7;
+			remoteInfo = LKNSLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16D7D3721D3512CF00789DC7 /* LKNSLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKNSLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D7D3761D3512CF00789DC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16D7D3781D3512CF00789DC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16D7D3791D3512CF00789DC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16D7D37B1D3512CF00789DC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16D7D37C1D3512CF00789DC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16D7D37F1D3512CF00789DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16D7D3811D3512CF00789DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16D7D3841D3512CF00789DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16D7D3861D3512CF00789DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D7D38B1D3512D000789DC7 /* LKNSLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKNSLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D7D38F1D3512D000789DC7 /* LKNSLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKNSLogTests.m; sourceTree = "<group>"; };
+		16D7D3911D3512D000789DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D7D3961D3512D000789DC7 /* LKNSLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKNSLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D7D39A1D3512D000789DC7 /* LKNSLogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKNSLogUITests.m; sourceTree = "<group>"; };
+		16D7D39C1D3512D000789DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16D7D36F1D3512CF00789DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D7D3881D3512D000789DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D7D3931D3512D000789DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D7D3691D3512CF00789DC7 = {
+			isa = PBXGroup;
+			children = (
+				16D7D3741D3512CF00789DC7 /* LKNSLog */,
+				16D7D38E1D3512D000789DC7 /* LKNSLogTests */,
+				16D7D3991D3512D000789DC7 /* LKNSLogUITests */,
+				16D7D3731D3512CF00789DC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16D7D3731D3512CF00789DC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16D7D3721D3512CF00789DC7 /* LKNSLog.app */,
+				16D7D38B1D3512D000789DC7 /* LKNSLogTests.xctest */,
+				16D7D3961D3512D000789DC7 /* LKNSLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16D7D3741D3512CF00789DC7 /* LKNSLog */ = {
+			isa = PBXGroup;
+			children = (
+				16D7D3781D3512CF00789DC7 /* AppDelegate.h */,
+				16D7D3791D3512CF00789DC7 /* AppDelegate.m */,
+				16D7D37B1D3512CF00789DC7 /* ViewController.h */,
+				16D7D37C1D3512CF00789DC7 /* ViewController.m */,
+				16D7D37E1D3512CF00789DC7 /* Main.storyboard */,
+				16D7D3811D3512CF00789DC7 /* Assets.xcassets */,
+				16D7D3831D3512CF00789DC7 /* LaunchScreen.storyboard */,
+				16D7D3861D3512CF00789DC7 /* Info.plist */,
+				16D7D3751D3512CF00789DC7 /* Supporting Files */,
+			);
+			path = LKNSLog;
+			sourceTree = "<group>";
+		};
+		16D7D3751D3512CF00789DC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16D7D3761D3512CF00789DC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16D7D38E1D3512D000789DC7 /* LKNSLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				16D7D38F1D3512D000789DC7 /* LKNSLogTests.m */,
+				16D7D3911D3512D000789DC7 /* Info.plist */,
+			);
+			path = LKNSLogTests;
+			sourceTree = "<group>";
+		};
+		16D7D3991D3512D000789DC7 /* LKNSLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16D7D39A1D3512D000789DC7 /* LKNSLogUITests.m */,
+				16D7D39C1D3512D000789DC7 /* Info.plist */,
+			);
+			path = LKNSLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16D7D3711D3512CF00789DC7 /* LKNSLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D7D39F1D3512D000789DC7 /* Build configuration list for PBXNativeTarget "LKNSLog" */;
+			buildPhases = (
+				16D7D36E1D3512CF00789DC7 /* Sources */,
+				16D7D36F1D3512CF00789DC7 /* Frameworks */,
+				16D7D3701D3512CF00789DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKNSLog;
+			productName = LKNSLog;
+			productReference = 16D7D3721D3512CF00789DC7 /* LKNSLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16D7D38A1D3512D000789DC7 /* LKNSLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D7D3A21D3512D000789DC7 /* Build configuration list for PBXNativeTarget "LKNSLogTests" */;
+			buildPhases = (
+				16D7D3871D3512D000789DC7 /* Sources */,
+				16D7D3881D3512D000789DC7 /* Frameworks */,
+				16D7D3891D3512D000789DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D7D38D1D3512D000789DC7 /* PBXTargetDependency */,
+			);
+			name = LKNSLogTests;
+			productName = LKNSLogTests;
+			productReference = 16D7D38B1D3512D000789DC7 /* LKNSLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16D7D3951D3512D000789DC7 /* LKNSLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D7D3A51D3512D000789DC7 /* Build configuration list for PBXNativeTarget "LKNSLogUITests" */;
+			buildPhases = (
+				16D7D3921D3512D000789DC7 /* Sources */,
+				16D7D3931D3512D000789DC7 /* Frameworks */,
+				16D7D3941D3512D000789DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D7D3981D3512D000789DC7 /* PBXTargetDependency */,
+			);
+			name = LKNSLogUITests;
+			productName = LKNSLogUITests;
+			productReference = 16D7D3961D3512D000789DC7 /* LKNSLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16D7D36A1D3512CF00789DC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张恒瑜";
+				TargetAttributes = {
+					16D7D3711D3512CF00789DC7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					16D7D38A1D3512D000789DC7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 16D7D3711D3512CF00789DC7;
+					};
+					16D7D3951D3512D000789DC7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 16D7D3711D3512CF00789DC7;
+					};
+				};
+			};
+			buildConfigurationList = 16D7D36D1D3512CF00789DC7 /* Build configuration list for PBXProject "LKNSLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16D7D3691D3512CF00789DC7;
+			productRefGroup = 16D7D3731D3512CF00789DC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16D7D3711D3512CF00789DC7 /* LKNSLog */,
+				16D7D38A1D3512D000789DC7 /* LKNSLogTests */,
+				16D7D3951D3512D000789DC7 /* LKNSLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16D7D3701D3512CF00789DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D7D3851D3512CF00789DC7 /* LaunchScreen.storyboard in Resources */,
+				16D7D3821D3512CF00789DC7 /* Assets.xcassets in Resources */,
+				16D7D3801D3512CF00789DC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D7D3891D3512D000789DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D7D3941D3512D000789DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16D7D36E1D3512CF00789DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D7D37D1D3512CF00789DC7 /* ViewController.m in Sources */,
+				16D7D37A1D3512CF00789DC7 /* AppDelegate.m in Sources */,
+				16D7D3771D3512CF00789DC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D7D3871D3512D000789DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D7D3901D3512D000789DC7 /* LKNSLogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D7D3921D3512D000789DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D7D39B1D3512D000789DC7 /* LKNSLogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16D7D38D1D3512D000789DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D7D3711D3512CF00789DC7 /* LKNSLog */;
+			targetProxy = 16D7D38C1D3512D000789DC7 /* PBXContainerItemProxy */;
+		};
+		16D7D3981D3512D000789DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D7D3711D3512CF00789DC7 /* LKNSLog */;
+			targetProxy = 16D7D3971D3512D000789DC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16D7D37E1D3512CF00789DC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D7D37F1D3512CF00789DC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16D7D3831D3512CF00789DC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D7D3841D3512CF00789DC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16D7D39D1D3512D000789DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16D7D39E1D3512D000789DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16D7D3A01D3512D000789DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LKNSLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sherlock.LKNSLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16D7D3A11D3512D000789DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LKNSLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sherlock.LKNSLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16D7D3A31D3512D000789DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LKNSLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sherlock.LKNSLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKNSLog.app/LKNSLog";
+			};
+			name = Debug;
+		};
+		16D7D3A41D3512D000789DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LKNSLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sherlock.LKNSLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKNSLog.app/LKNSLog";
+			};
+			name = Release;
+		};
+		16D7D3A61D3512D000789DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LKNSLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sherlock.LKNSLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LKNSLog;
+			};
+			name = Debug;
+		};
+		16D7D3A71D3512D000789DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LKNSLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sherlock.LKNSLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LKNSLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D7D36D1D3512CF00789DC7 /* Build configuration list for PBXProject "LKNSLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D7D39D1D3512D000789DC7 /* Debug */,
+				16D7D39E1D3512D000789DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D7D39F1D3512D000789DC7 /* Build configuration list for PBXNativeTarget "LKNSLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D7D3A01D3512D000789DC7 /* Debug */,
+				16D7D3A11D3512D000789DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16D7D3A21D3512D000789DC7 /* Build configuration list for PBXNativeTarget "LKNSLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D7D3A31D3512D000789DC7 /* Debug */,
+				16D7D3A41D3512D000789DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16D7D3A51D3512D000789DC7 /* Build configuration list for PBXNativeTarget "LKNSLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D7D3A61D3512D000789DC7 /* Debug */,
+				16D7D3A71D3512D000789DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16D7D36A1D3512CF00789DC7 /* Project object */;
+}
