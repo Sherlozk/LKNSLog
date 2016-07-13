@@ -14,9 +14,21 @@
 
 @implementation AppDelegate
 
+//在AppDelegate.m文件中添加这个函数，并在didFinishLaunchingWithOptions方法中调用
+- (void)redirectNSLogToDocumentFolder{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);//获取文件路径
+    NSString *documentsDirectory = [paths objectAtIndex:0]; //路径转换成字符串
+    NSLog(@"日志存放路径：%@",documentsDirectory);
+    NSString *fileName =[NSString stringWithFormat:@"%@.log",[NSDate date]];//生成log文件名
+    NSLog(@"日志文件名：%@",fileName);
+    NSString* logFilePath = [documentsDirectory stringByAppendingPathComponent:fileName];//拼接成路径
+    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding],"a+",stderr);//设置nslog的输出路径为文件而不是控制台
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self redirectNSLogToDocumentFolder];//在程序载入的时候设置log输出
     return YES;
 }
 
@@ -40,6 +52,7 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+//    NSData* data = [NSData dataWithContentsOfFile:logFilePath];
 }
 
 @end
